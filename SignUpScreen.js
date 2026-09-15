@@ -26,9 +26,9 @@ const SignUpScreen = () => {
           <View style={styles.formContainer}>
             {/* Tiêu đề */}
             <Text style={styles.title}>Đăng Ký</Text>
-            <Text style={styles.subtitle}>Tạo tài khoản mới của bạn</Text>
+            <Text style={styles.subtitle}>Khám phá vũ trụ cùng bạn.</Text>
 
-            {/* Input Họ tên */}
+            {/* Họ tên */}
             <View style={styles.inputWrapper}>
               <Text style={styles.label}>Họ và tên</Text>
               <TextInput
@@ -39,7 +39,7 @@ const SignUpScreen = () => {
               />
             </View>
 
-            {/* Input Email */}
+            {/* Email */}
             <View style={styles.inputWrapper}>
               <Text style={styles.label}>Email</Text>
               <TextInput
@@ -51,7 +51,7 @@ const SignUpScreen = () => {
               />
             </View>
 
-            {/* Input Mật khẩu */}
+            {/* Mật khẩu */}
             <View style={styles.inputWrapper}>
               <Text style={styles.label}>Mật khẩu</Text>
               <TextInput
@@ -62,7 +62,7 @@ const SignUpScreen = () => {
               />
             </View>
 
-            {/* Input Xác nhận mật khẩu */}
+            {/* Xác nhận mật khẩu */}
             <View style={styles.inputWrapper}>
               <Text style={styles.label}>Xác nhận mật khẩu</Text>
               <TextInput
